@@ -1,0 +1,51 @@
+## Irrigation Scheduler in C
+
+This project is an irrigation scheduler implemented in C. It helps optimize irrigation practices by determining the appropriate timing and amount of water to apply to crops based on various factors such as crop coefficient, evapotranspiration, and soil moisture levels.
+
+### Features
+
+- Calculate the crop water requirement based on crop coefficient and evapotranspiration.
+- Assess soil moisture levels to determine if irrigation is needed.
+- Customize the irrigation schedule based on factors like soil type, irrigation system efficiency, and specific crop requirements.
+- Integrate with an irrigation system to control water application automatically.
+
+### Usage
+
+1. Compile the C program using a C compiler.
+2. Run the compiled program.
+3. Enter the crop coefficient, evapotranspiration value, and current soil moisture level.
+4. The program will calculate the crop water requirement and determine if irrigation is needed.
+5. If irrigation is required, further logic can be added to calculate the irrigation duration and frequency based on specific parameters.
+6. The program can be integrated with an irrigation system to automate the water application.
+
+
+### Example
+
+Here's an example of how to use the program:
+
+irrigation_scheduler;
+
+
+Enter the crop coefficient: 0.8
+
+Enter the evapotranspiration value: 5.2
+
+Enter the current soil moisture level: 0.35
+
+Crop water requirement: 4.16 units
+
+Irrigation is needed.
+
+
+
+
+###Requirements
+
+C compiler
+
+
+
+#License
+
+"This project is licensed under the MIT License."
+
